@@ -1,0 +1,45 @@
+\documentclass[12font]{article}
+
+\input{formal-sop-packages}
+
+%%%%%%%%% newcommands for sec and item %%%%%%%%%
+
+\input{formal-sop-new-env-def}
+
+%%%%%%%%%%%%%%% basic info %%%%%%%%%%%%%%%%
+\newcommand{\name}{Chen-Chih Wang}
+\newcommand{\zhname}{王晨志}
+\newcommand{\email}{good.wangchanz@gapp.nthu.edu.tw}
+\newcommand{\birthdate}{July 7, 2002}
+\newcommand{\university}{University of Toronto}
+
+\begin{document}
+
+%%%%%%%%%%%%%%% header %%%%%%%%%%%%%%%%%%
+\fancyhead[L]{\name (\href{https://wangchenchih.github.io/wangchenchih-website/}{Homepage})
+\\
+\email
+}
+
+\fancyhead[C]{Physics PhD}
+
+\fancyhead[R]{Date of Birth: \birthdate}
+
+%%%%%%%%%%%%%%% title %%%%%%%%%%%%%%%
+\begin{center}
+\fontsize{20pt}{15pt}\selectfont
+\textbf{\underline{\textsc{Letter of Intent}}}
+\\
+\fontsize{15pt}{20pt}\selectfont
+\textbf{\university}
+\end{center}
+
+
+%%%%%%%%%%%%%%% main text %%%%%%%%%%%%%%%
+\fontsize{12pt}{24pt}\selectfont
+
+\begin{multicols}{2}
+    \input{U-of-T}
+\end{multicols}
+
+\end{document}
